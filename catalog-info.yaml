@@ -7,6 +7,7 @@ metadata:
     # Uncomment when you have created the pipeline manually in Azure DevOps
     # dev.azure.com/project: cramirezver
     # dev.azure.com/build-definition: carlosrv125.api-java-dso-terraform
+    sonarqube.org/project-key: carlosrv999_spring-boot-test
 spec:
   type: service
   owner: user:guest
