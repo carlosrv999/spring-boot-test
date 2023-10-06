@@ -14,6 +14,14 @@ public class GreetingController {
 
   @GetMapping("/greeting")
   public Greeting greeting(@RequestParam(value = "name", defaultValue = "to the application") String name) {
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
+    System.out.println("Carlos Ramirez Vera");
     return new Greeting(counter.incrementAndGet(), String.format(template, name));
   }
 }
