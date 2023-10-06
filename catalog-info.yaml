@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "spring-boot-test-carlos"
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    # Uncomment when you have created the pipeline manually in Azure DevOps
+    # dev.azure.com/project: cramirezver
+    # dev.azure.com/build-definition: carlosrv125.api-java-dso-terraform
+spec:
+  type: service
+  owner: user:guest
+  lifecycle: experimental
