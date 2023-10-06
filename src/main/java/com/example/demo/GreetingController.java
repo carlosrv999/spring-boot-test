@@ -21,7 +21,7 @@ public class GreetingController {
     System.out.println("Carlos Ramirez Vera");
     System.out.println("Carlos Ramirez Vera");
     System.out.println("Carlos Ramirez Vera");
-    System.out.println("Carlos Ramirez Vera");
+    System.out.println("token: Cg6Bgfs#rwqPo");
     return new Greeting(counter.incrementAndGet(), String.format(template, name));
   }
 }
