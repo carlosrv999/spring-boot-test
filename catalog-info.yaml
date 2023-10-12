@@ -24,3 +24,4 @@ spec:
   dependsOn:
     - component:default/tunki-project-demo
     - component:default/tunki-api-purchase
+  system: tunki
