@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: spring-boot-test
+  description: The spring-boot-test REST API
+spec:
+  type: openapi
+  lifecycle: production
+  owner: user:guest
+  definition:
+    $openapi: https://github.com/carlosrv999/spring-boot-test/blob/main/openapi.yaml
