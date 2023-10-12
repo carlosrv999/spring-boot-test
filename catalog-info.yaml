@@ -14,3 +14,4 @@ spec:
   lifecycle: experimental
   dependsOn:
     - component:default/tunki-project-demo
+    - component:default/tunki-api-purchase
