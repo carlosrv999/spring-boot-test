@@ -8,6 +8,15 @@ metadata:
     dev.azure.com/project: cramirezver
     dev.azure.com/build-definition: carlosrv125.tunki-project-demo
     sonarqube.org/project-key: carlosrv999_spring-boot-test
+  tags:
+    - java
+    - spring-boot
+    - interbank-tunki
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: service
   owner: user:guest
