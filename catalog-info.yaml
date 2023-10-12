@@ -25,3 +25,5 @@ spec:
     - component:default/tunki-project-demo
     - component:default/tunki-api-purchase
   system: tunki
+  providesApis:
+    - spring-boot-test
