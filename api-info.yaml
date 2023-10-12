@@ -8,4 +8,4 @@ spec:
   lifecycle: production
   owner: user:guest
   definition:
-    $openapi: https://github.com/carlosrv999/spring-boot-test/blob/main/openapi.yaml
+    $yaml: https://github.com/carlosrv999/spring-boot-test/blob/main/openapi.yaml
