@@ -5,10 +5,12 @@ metadata:
   annotations:
     backstage.io/techdocs-ref: dir:.
     # Uncomment when you have created the pipeline manually in Azure DevOps
-    # dev.azure.com/project: cramirezver
-    # dev.azure.com/build-definition: carlosrv125.api-java-dso-terraform
+    dev.azure.com/project: cramirezver
+    dev.azure.com/build-definition: carlosrv125.tunki-project-demo
     sonarqube.org/project-key: carlosrv999_spring-boot-test
 spec:
   type: service
   owner: user:guest
   lifecycle: experimental
+  dependsOn:
+    - component:default/tunki-project-demo
